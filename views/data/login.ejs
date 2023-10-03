@@ -68,7 +68,7 @@ body {
   /* padding-left: 5px; */
   color: aliceblue;
   padding: 5px;
-  background: url("bg4.png") no-repeat ;
+  background: url("bg3.jpg") no-repeat ;
   background-size: cover;
   display: flex;
   /* align-items: center;/ */
@@ -468,11 +468,11 @@ div.login
   /* height: 40px; */
 }
 
-/* Animation */
+ Animation
 .anim-typewriter{
   animation: typewriter 4s steps(60) 1s 1 normal both,
              blinkTextCursor 500ms steps(60) infinite normal;
-             /* height: 200px; */
+             height: 200px;
              flex: content;
              font-size:x-large;
              display: flex;
@@ -487,7 +487,7 @@ div.login
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
-}
+} 
 .button121 {
   display: inline-block;
   border-radius: 4px;
@@ -555,6 +555,7 @@ div.login
             <div id="myDropdown" class="dropdown-content">
               <a href="#home">English</a>
               <a href="#about">हिंदी(Hindi)</a>
+              <a href="">(മലയാളം)Malayalam</a>
               <a href="#contact">मराठी (Marathi)</a>
               <a href="#contact">ਪੰਜਾਬੀ (Punjabi)</a>
               <a href="#contact">ગુજરાતી (Gujarati)</a>
@@ -577,7 +578,7 @@ div.login
     </div>
       <ul class="ull">
         <li class="li"><a class="active" href="https://healthid.ndhm.gov.in/">ABHA(Health ID)</a></li>
-        <li class="li"><a class="active" href="#news">DASHBOARD</a></li>
+        <li class="li"><a class="active" href="./dashboard">DASHBOARD</a></li>
         <li class="li"><a class="active" href="#contact">FAQ</a></li>
         <li class="li" ><a class="button" href="/register" >Register</a></li>
       </ul>
@@ -624,20 +625,24 @@ document.getElementById("myDropdown").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-if (!event.target.matches('.dropbtn')) {
-var dropdowns = document.getElementsByClassName("dropdown-content");
-var i;
-for (i = 0; i < dropdowns.length; i++) {
-var openDropdown = dropdowns[i];
-if (openDropdown.classList.contains('show')) {
-openDropdown.classList.remove('show');
-}
-}
-}
+window.onclick = function(event) 
+{
+    if (!event.target.matches('.dropbtn')) 
+    {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+          for (i = 0; i < dropdowns.length; i++) 
+          {
+          var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) 
+                    {
+                    openDropdown.classList.remove('show');
+                    }
+          }
+    }
 }
 // console.log(process);
-let text = "apna aadhar number daaliye";
+let text = "apna aadhar number daaliyea";
 let text1 ="aage badhne ke liye";
 
 // Create a new SpeechSynthesisUtterance object

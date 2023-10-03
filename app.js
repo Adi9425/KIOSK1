@@ -27,7 +27,11 @@ const userSchema={
     age:Number,
     occupation:String,
     gender:String,
-    parent:String
+    parent:String,
+    fever:String,
+    type_of_Fever:String,
+    breathing:String,
+    time:String
 };
 
 const User= new mongoose.model("User",userSchema);

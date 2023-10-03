@@ -73,7 +73,7 @@ body {
   /* padding-left: 5px; */
   color: aliceblue;
   padding: 5px;
-  background: url("bg4.png") no-repeat ;
+  background: url("bg3.jpg") no-repeat ;
   background-size: cover;
   display: flex;
   /* align-items: center;/ */
@@ -206,14 +206,15 @@ body {
   background-color: #0c6470;
 }
 
-footer {
+/* footer {
   background: linear-gradient(to right, #034417, #066824); /* Use a gradient for two colors */
-  color: white; /* Text color for the footer */
-  padding: 20px; /* Add some padding for spacing */
-  text-align: center; /* Center-align the text */
-  position: relative;
-  margin-top: auto;
-}
+  /* color: white; /* Text color for the footer */
+  /* padding: 20px; /* Add some padding for spacing */
+  /* text-align: center; Center-align the text */
+  /* position: relative; */
+  /* margin-top: auto; */
+  /* bottom:0; */ 
+/* }  */
 div.MAP
 {
   display: inline-table;
@@ -694,7 +695,7 @@ form p a{
     background: #3c00a0; /* Match the hover background color of other input fields */
     color: #fff; /* Match the hover text color of other input fields */
 }
-.footer {
+footer {
   background: linear-gradient(to right, #034417, #066824); /* Use a gradient for two colors */
   color: white; /* Text color for the footer */
   padding: 20px; /* Add some padding for spacing */
@@ -707,18 +708,18 @@ form p a{
 {
   color: white;
 }
-.a11
+/* .a11
   {
     /* height: 20px; */
     /* align-items: center; */
-  }
+  /* }  */
   .kiosk
 {
   float: left;
     position:relative;
     /* border: 1px solid #8a6a6a; */
     /* border-radius: 4px; */
-    height: 64px;
+    height: 56px;
     padding-bottom: 2px;
     /* image-resolution: 120px 50px; */
     /* padding: 2px; */
@@ -740,6 +741,7 @@ form p a{
             <div id="myDropdown" class="dropdown-content">
               <a href="#home">English</a>
               <a href="#about">हिंदी(Hindi)</a>
+              <a href="">(മലയാളം)Malayalam</a>
               <a href="#contact">मराठी (Marathi)</a>
               <a href="#contact">ਪੰਜਾਬੀ (Punjabi)</a>
               <a href="#contact">ગુજરાતી (Gujarati)</a>
@@ -762,7 +764,7 @@ form p a{
     </div>
       <ul class="ull">
         <li class="li"><a class="active" href="https://healthid.ndhm.gov.in/">ABHA(Health ID)</a></li>
-        <li class="li"><a class="active" href="#news">DASHBOARD</a></li>
+        <li class="li"><a class="active" href="./dashboard">DASHBOARD</a></li>
         <li class="li"><a class="active" href="#contact">FAQ</a></li>
         <li class="li" ><a class="button" href="/register" >Register</a></li>
       </ul>
@@ -872,8 +874,8 @@ openDropdown.classList.remove('show');
 }
 }
 // console.log(process);
-let text = "apna aadhar number daaliye";
-let text1 ="aage badhne ke liye";
+let text = "apna aadhar number daaliye or bakki cheezae daliyan";
+let text1 ="krepeya register kare";
 
 // Create a new SpeechSynthesisUtterance object
 var utterance = new SpeechSynthesisUtterance();
